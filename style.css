@@ -1,0 +1,126 @@
+    /*
+Theme Name: Time Zone
+Theme URI: https://timezone.sampadinfo.com/
+Author: Sampad Debnath
+Author URI: https://sampadinfo.com/
+Description: Basic woo-commerce wordpress template.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: timezone
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+    
+    .logged-in .sticky-bar {
+        margin-top: 32px;
+    }
+    
+    a.sonsan {
+        color: red;
+    }
+    /* Blog pagination custom css */
+    
+    .blog-pagination .page-numbers {
+        font-size: 14px;
+        position: relative;
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+        margin-left: -1px;
+        line-height: 45px;
+        width: 45px;
+        height: 45px;
+        border-radius: 0 !important;
+        color: #8a8a8a;
+        border: 1px solid #f0e9ff;
+        margin-right: 10px;
+    }
+    
+    .blog-pagination .page-numbers i,
+    .blog-pagination span.page-numbers {
+        font-size: 13px;
+    }
+    
+    .blog-pagination .page-numbers:hover {
+        background-color: #fbf9ff;
+    }
+    
+    .blog-pagination .page-numbers.current {
+        background-color: #fbf9ff;
+        border-color: #f0e9ff;
+        color: #888888;
+    }
+    
+    .blog-pagination .page-numbers:last-child {
+        margin-right: 0;
+    }
+    /* Single blog custom css */
+    
+    .single-post-area .blog_details .wp-block-quote>p {
+        margin-bottom: 0;
+    }
+    
+    .single-post-area .logged-in-as a {
+        color: #0b1c39;
+    }
+    
+    .single-post-area .form-submit {
+        padding-left: 15px;
+    }
+    
+    .single-post-area .comment-list {
+        list-style: none !important;
+    }
+    
+    .single-post-area .timezone-comment-list .timezone-author {
+        color: #222;
+    }
+    
+    .single-post-area.pad-20 {
+        margin-bottom: 20px;
+    }
+    
+    #respond h3 a,
+    #respond h3 {
+        color: #222;
+        font-size: 15px;
+    }
+    
+    .single-post-area .form-submit {
+        padding-left: 0 !important;
+    }
+    
+    .single-post-area textarea {
+        margin-bottom: 30px !important;
+    }
+    /* Tag widget custom css */
+    
+    .blog_right_sidebar .widget_tag_cloud .tagcloud {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .blog_right_sidebar .widget_tag_cloud .tagcloud a {
+        display: inline-block;
+        border: 1px solid #eeeeee;
+        background: #fff;
+        padding: 4px 20px;
+        margin-bottom: 8px;
+        margin-right: 5px;
+        transition: all 0.3s ease 0s;
+        color: #888888;
+        font-size: 13px !important;
+    }
+    
+    .blog_right_sidebar .widget_tag_cloud .tagcloud a:hover {
+        background: #ff2020;
+        -webkit-text-fill-color: #fff;
+    }
+    /* Elementor popular shop widget custom css */
+    
+    .popular-items .single-popular-items .popular-caption span {
+        display: inherit !important;
+    }

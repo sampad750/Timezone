@@ -1,0 +1,121 @@
+/* timezone shop page product style */
+.single-popular-items .img-cap a.added_to_cart {
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.single-popular-items .popular-caption del{
+    margin-left: 5px;
+}
+/*pagination*/
+.woocommerce nav.woocommerce-pagination ul{
+    border: 1px solid #ff8080;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+    border-right: 1px solid #ff8080;
+}
+.woocommerce nav.woocommerce-pagination ul li:last-child{
+    border-right: 0 solid #ff8080;
+}
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{
+    font-size: 20px;
+    padding: 14px 20px;
+    color: #ff2020;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover{
+    background-color: #ffe6e6;
+}
+.popular-items .select-itms ul {
+    margin: 0;
+    padding: 0;
+}
+.popular-items .select-itms ul li {
+    display: inline-block;
+}
+.popular-items .select-itms ul li a {
+    color: #ff2020;
+    border-bottom: 1px dotted #ff2020;
+    margin-right: 5px;
+}
+
+/* timezone single product */
+.product_image_area{
+    position: relative;
+}
+.product_image_area span.onsale{
+    left: 15px;
+}
+
+/* timezone checkout page style */
+.checkout_area .check_title h2{
+    padding-left: 0;
+}
+.checkout_area form.checkout_coupon{
+    border: none;
+}
+.checkout_area span.woocommerce-input-wrapper {
+    width: 100%;
+}
+/* timezone account page style */
+.login_part form.login, .login_part form.register{
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius:unset;
+}
+
+
+
+
+/* Elementor page builder css */
+/* timezone-product widget css*/
+.new-product-area .single-new-pro .product-caption span{
+    display: inline-flex;
+}
+.new-product-area .product-caption del{
+    margin-right: 7px;
+}
+
+
+
+
+
+
+.media-body > a, .media-body > a:hover{
+    color: #777;
+}
+.cart_inner .table tbody tr td span{
+    font-family: "Playfair Display",serif;
+    color: #415094;
+}
+.woocommerce-billing-fields__field-wrapper p.form-row input,
+.woocommerce-shipping-fields__field-wrapper p.form-row input{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+input#coupon_code {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.woocommerce-LostPassword > a{
+    color: #777;
+}
+
+
+
+.login_part a{
+    color: #777;
+}
+
