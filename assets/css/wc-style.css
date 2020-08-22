@@ -97,6 +97,10 @@ input#coupon_code {
     margin-right: 5px;
 }
 
+/*wishlist active button color*/
+.yith-wcwl-wishlistexistsbrowse i.fa-heart{
+    color: #f81f1f;
+} 
 
 
 
@@ -112,9 +116,6 @@ input#coupon_code {
 .woocommerce-LostPassword > a{
     color: #777;
 }
-
-
-
 .login_part a{
     color: #777;
 }
